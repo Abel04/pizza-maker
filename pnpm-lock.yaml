@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      material-design-icons:
+        specifier: ^3.0.1
+        version: 3.0.1
       vue:
         specifier: ^3.5.13
         version: 3.5.13
@@ -1165,6 +1168,9 @@ packages:
 
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
+
+  material-design-icons@3.0.1:
+    resolution: {integrity: sha512-t19Z+QZBwSZulxptEu05kIm+UyfIdJY1JDwI+nx02j269m6W414whiQz9qfvQIiLrdx71RQv+T48nHhuQXOCIQ==}
 
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
@@ -2671,6 +2677,8 @@ snapshots:
   magic-string@0.30.17:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  material-design-icons@3.0.1: {}
 
   math-intrinsics@1.1.0: {}
 

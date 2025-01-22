@@ -42,10 +42,11 @@ body {
   background-image: url('@/assets/background.jpg');
   z-index: 0;
   position: relative;
+  overflow: auto;
 
   &::after {
     content: '';
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100vh;

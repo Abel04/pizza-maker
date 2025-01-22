@@ -4,7 +4,7 @@ import PizzaMaker from './components/PizzaMaker.vue'
 
 <template lang="pug">
   h1 Pizza Maker
-  p Select the toppings by typping them.
+  p Select a topping by typping them and clicking on the available ones.
 
   PizzaMaker
 </template>
